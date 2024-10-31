@@ -26,7 +26,7 @@ public class HelloServlet extends HttpServlet {
         } else if ("python".equalsIgnoreCase(keyword)) {
             result = "查询结果：Python是一种易于学习的编程语言。";
         } else {
-            result = "没有找到匹配的资源。";
+            result = "88998";
         }
 
         response.getWriter().write(result);
