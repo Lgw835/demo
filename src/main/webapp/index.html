@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>网站首页</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    ul{
+      list-style: none;
+      padding-left: 2rem;
+      line-height: 2;
+      left: 0;
+    }
+    .nav1{
+      font-size: 18px;
+      color: grey;
+    }
+
+    #tips{
+      width: 100%;
+      display: flex;
+      font-size: 14px;
+      color: grey;
+      align-items: center;
+      padding-bottom: 50px;
+      justify-content: space-around;
+    }
+
+
+  </style>
+
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+<img src="./img/logo.jpg" width=100% alt="首页图片">
+<nav class="top-nav">
+  <ul>
+    <li><a href="#">学校主页</a></li>
+    <li><a href="#">馆藏书目检索</a></li>
+    <li><a href="#">新书通报</a></li>
+    <li><a href="#">书刊推荐</a></li>
+    <li><a href="#">学术信息动态</a></li>
+    <li><a href="#">新生专栏</a></li>
+    <li><a href="#">联系我们</a></li>
+    <li><a href="#">馆长信箱</a></li>
+  </ul>
+</nav>
+
+<div class="div1">
+  <div class="div2 bgimg1">
+    <ul>
+      <li class="nav1"><div>>资源检索</div></li>
+      <li><div>中文数据</div></li>
+      <li><div>外文数据</div></li>
+      <li><div>试用数据</div></li>
+      <li><div>电子图书</div><li>
+      <li><div>网络免费</div></li>
+      <li><div>特色资源</div><li>
+      <li><div>自建资源</div><li>
+      <li><div>随书光盘</div><li>
+    </ul>
+  </div>
+
+  <div class="div2 bgimg2">
+    <ul>
+      <li class="nav1">>读者服务</li>
+      <li>读者信息查询</li>
+      <li>文献续借</li>
+      <li>文献预约</li>
+      <li>证件管理</li>
+      <li>常见问题</li>
+      <li>外借服务</li>
+      <li>读者教育</li>
+      <li>图书捐赠</li>
+    </ul>
+  </div>
+
+  <div class="div2 bgimg3">
+    <ul>
+      <li class="nav1">>入馆指南</li>
+      <li>本馆概况</li>
+      <li>入馆须知</li>
+      <li>开放时间</li>
+      <li>馆藏分布</li>
+      <li>机构设置</li>
+      <li>规章制度</li>
+      <li>服务项目</li>
+      <li>馆容馆貌</li>
+    </ul>
+  </div>
+
+  <div class="div2 bgimg4">
+    <ul>
+      <li class="nav1">>信息服务</li>
+      <li>学科馆员</li>
+      <li>信息咨询</li>
+      <li>馆际互借</li>
+      <li>文献传递</li>
+      <li>图书分类</li>
+      <li>导读书目</li>
+      <li>读书平台</li>
+      <li>专家讲座</li>
+    </ul>
+  </div>
+
+  <div class="div2 bgimg5">
+    <ul>
+      <li class="nav1">>网络导航</li>
+      <li>学科导航</li>
+      <li>网上图书馆</li>
+      <li>推荐站点</li>
+      <li>常用软件</li>
+      <li>友情链接</li>
+      <li>报刊资源</li>
+      <li>馆员天地</li>
+    </ul>
+  </div>
+
+  <div class="bgimg6">
+    <pre>
+   图书馆2024年国庆节放假通知
+   ProQuest教育学、心理学学术...
+  《典海民国图书资源平台》试用
+   校友著作捐赠仪式在图书馆举行
+   外文期刊学科服务平台试用通知
+   图书馆被评为陕西省图书馆学会
+   图书馆和校团委联合召开2024年
+   ProQuest综合学术期刊数据库...
+   图书馆2024年“书香校园”系列
+    </pre>
+  </div>
+</div>
+
+<div class="div1">
+  <div class="bgimg7">
+    <div class="image-box1">
+      <img src="./img/bggundong_1.jpg" alt="Image 1">
+      <img src="./img/bggundong_2.jpg" alt="Image 2">
+      <img src="./img/bggundong_3.jpg" alt="Image 3">
+      <img src="./img/bggundong_4.jpg" alt="Image 4">
+      <img src="./img/bggundong_5.jpg" alt="Image 5">
+    </div>
+  </div>
+
+  <div class="bgimg8">
+    <span>请输入资源检索关键词：</span>
+    <form>
+      <input type="text" id="keyword" placeholder="请输入关键词"> <br>
+      <button onclick="searchResource()">提交</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+</div>
+
+<div class="bgimg9">
+  <div class="image-box2">
+    <img src="./img/db1.jpg" alt="Image 1">
+    <img src="./img/db2.jpg" alt="Image 2">
+    <img src="./img/db3.jpg" alt="Image 3">
+    <img src="./img/db4.jpg" alt="Image 4">
+    <img src="./img/db5.jpg" alt="Image 5">
+    <img src="./img/db6.jpg" alt="Image 6">
+  </div>
+</div>
+
+<nav class="bottom-nav">
+  <ul>
+    <li><a href="#">中国科技论文在线</a></li>
+    <li><a href="#">中国开放教育资源</a></li>
+    <li><a href="#">国家精品课程</a></li>
+    <li><a href="#">教育网公开课导航</a></li>
+    <li><a href="#">Emerald电子资源</a></li>
+    <li><a href="#">OA学术资源</a></li>
+  </ul>
+</nav>
+
+<div id="tips">
+  <span>版权所有：上海理工大学图书馆  技术支持：网络管理中心  建议使用IE7.0以上浏览器  1024x768以上分辨率</span>
+</div>
+
+</body>
+</html>

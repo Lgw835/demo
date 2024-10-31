@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 951px;
+    margin: auto;
+}
+
+.top-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-image: url('img/bgdanghang3.png');
+    background-size:951px; /* 设定背景图宽度为951px，高度自适应以保持比例 */
+    background-repeat: no-repeat; /* 防止背景图重复 */
+    /* 可选：若背景图未覆盖整个元素，可设定背景位置 */
+    background-position: center; /* 背景图居中显示 */
+}
+.top-nav ul li {
+    display: inline;
+    padding: 10px 20px;
+}
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.top-nav ul li a:hover {
+    color: yellow;
+    /*font-size: 1.2em;*/
+}
+
+.bottom-nav{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: dodgerblue;
+    background-size:951px;
+}
+.bottom-nav ul li {
+    display: inline;
+    font-size: 12px;
+    padding: 20px 25px;
+}
+.bottom-nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+.bottom-nav ul li a:hover {
+    color: yellow;
+}
+
+
+header img {
+    width: 100%;
+    height: auto;
+}
+
+.div1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.div2{
+    width: 122px;
+    height: 337px;
+    padding-left: 0;
+    padding-top: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    background-position: center bottom 15px; /* 背景图片靠下10px */
+    background-repeat: no-repeat; /* 确保背景图片不重复 */
+}
+.bgimg1{
+    background-image: url('img/bgc1.jpg');
+}
+.bgimg2{
+    background-image: url('img/bgc2.jpg');
+}
+.bgimg3{
+    background-image: url('img/bgc3.jpg');
+}
+.bgimg4{
+    background-image: url('img/bgc4.jpg');
+}
+.bgimg5{
+    background-image: url('img/bgc5.jpg');
+}
+.bgimg6{
+    width: 231px;
+    height: 323px;
+    line-height: 1.7;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: -0.1em;
+    padding-left: 0;
+    padding-top: 60px;
+    background-image: url('img/bggonggao1.jpg');
+    background-position: center bottom 35px; /* 背景图片靠下10px */
+    background-repeat: no-repeat; /* 确保背景图片不重复 */
+}
+.bgimg7{
+    width: 702px;
+    height: 178px;
+    background-image: url('img/bggundong.jpg');
+}
+
+.bgimg8{
+    width: 221px;
+    height: 186px;
+    background-image: url('img/bgziyuan.jpg');
+    position: relative;
+}
+.bgimg8 span{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 15px;
+    color: gray;
+}
+.bgimg8 form{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+}
+
+.bgimg9{
+    width: 930px;
+    height: 138px;
+    background-image: url('img/bgshujuku.jpg');
+}
+
+.image-box1 {
+    display: flex; /* 将盒子设置为Flex容器 */
+    border: 2px solid white; /* 边框样式，可以根据需要调整 */
+    margin-left: 65px; /* 向右平移20px */
+}
+.image-box1 img {
+    margin-right: 5px; /* 添加右边距 */
+}
+.image-box2 img {
+    padding: 12px;
+    margin: 45px 0 1em 0;
+}
+
+
